@@ -17,6 +17,7 @@ The idea of the display is to resemble the old slide viewer I had when I was a k
 
 * Add a triple slider
 * Using just one button or adding different ones. 
+* Making it responsive
 
 
 
