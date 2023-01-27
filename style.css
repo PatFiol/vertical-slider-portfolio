@@ -3,11 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;400&display=swap');
 
 :root {
-	--hue: 310;
-	--sat: 30%;
-	--light: 60%;
-	--opacity: 50%;
-	/* --main-color: hsl(var(--hue), var(--sat), var(--light)); */
+	--opacity: 70%;
 	--title-color: hsl(310, 80%, 50%);
 	--subtitle-color: hsl(310, 20%, 60%);
 	--text-color: hsl(305, 80%, 70%);
@@ -24,7 +20,6 @@ body {
 	font-family: 'Martel', serif;
 	height: 100vh;
 	font-size: 1rem;
-	/* color:var(--main-color); */
 }
 
 h1 {
@@ -58,7 +53,7 @@ p {
 .left-slide {
 	position: absolute;
 	height: 100%;
-	width: 35%;
+	width: 30%;
 	top: 0;
 	left: 0;
 	transition: transform 0.6s ease-in-out;
@@ -75,9 +70,9 @@ p {
 .right-slide {
 	position: absolute;
 	height: 100%;
-	width: 65%;
+	width: 70%;
 	top: 0;
-	left: 35%;
+	left: 30%;
 	transition: transform 0.6s ease-in-out;
 }
 .right-slide > div {
@@ -121,10 +116,16 @@ p {
 
 
 .right-slide img {
-  filter: drop-shadow(0 0 0.5rem #333);
-  border-radius: 2rem;
+	border-radius: 2rem;
   height: 100%;
+}
 
+.dark img{
+	box-shadow: 0 0 0.45rem hsla(0, 0%, 80%, 0.7);
+}
+
+.light img {
+	box-shadow: 0 0 0.45rem hsla(0, 0%, 18%, 0.7);
 }
 
 /* .left01 {
@@ -162,13 +163,13 @@ button {
 	font-size: 1.5rem;
 	padding: 0.8em;
 	border: none;
-	background-color: hsl(327, 86%, 61%);
-	color: hsl(0, 18%, 84%);
+	background-color: var(--title-color);
+	color: hsl(0, 11%, 96%);
+	opacity: var(--opacity);
 }
 .arrow-buttons {
-	cursor: pointer;
 	position: absolute;
-	left: 13%;
+	left: 12%;
 	top: 80%;
 	z-index: 100;
 }
@@ -182,13 +183,13 @@ button:focus {
 }
 
 .arrow-up {
-	transform: translateX(50%);
 	border-bottom-left-radius: 0.5rem;
 	border-top-left-radius: 0.5rem;
+	cursor: pointer;
 }
 
 .arrow-down {
-	transform: translateX(25%);
 	border-top-right-radius: 0.5em;
 	border-bottom-right-radius: 0.5rem;
+	cursor: pointer;
 }
