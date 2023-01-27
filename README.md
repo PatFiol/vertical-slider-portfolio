@@ -21,10 +21,8 @@ The idea of the display is to resemble the old slide viewer I had when I was a k
 * Making it responsive
 
 
+### Screenshots
 
 
-![vertical-slider1](https://user-images.githubusercontent.com/96197951/211624529-27eff801-ff1d-468f-8585-e98d4ef38db4.jpg)
-
-![vertical-slider2](https://user-images.githubusercontent.com/96197951/211624965-1ab4615c-e321-4bb5-b032-7e2e8beb4f2b.jpg)
-
-
+<img width="600" alt="vertical-slider-1" src="https://user-images.githubusercontent.com/96197951/215075705-f075b211-b11d-47a5-add1-e48bb71bf3b6.png">
+<img width="600" alt="vertical-slider-2" src="https://user-images.githubusercontent.com/96197951/215075707-47fabba1-07eb-46e7-9f44-c2f9c353cb13.png">
