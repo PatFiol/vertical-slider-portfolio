@@ -30,8 +30,10 @@ h1 {
 }
 h2 {
 	font-size: calc(2vw + 0.5rem);
-	color: var(--subtitle-color);	text-transform: capitalize;
 	text-align: center;
+	text-transform: capitalize;
+	padding: 0 1rem;
+	color: var(--subtitle-color);
 }
 p {
 	font-size: calc(1vw + .5rem);
